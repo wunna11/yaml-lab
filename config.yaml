@@ -9,12 +9,12 @@ database: &common_database
 
 database_new: *common_database
 
-prod_db: 
+prod_db:
   <<: *common_database
   host: prod-db.example.net
   password: mypassword
 
-dev_db: 
+dev_db:
   <<: *common_database
   host: localhost
   password: 192770
